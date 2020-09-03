@@ -14,7 +14,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 #PLEASE CHANGE HERE THE PATH TO FILE df_dashboard.xlsx ON YOUR PC
 
-path='/Users/margaritavenediktova/Desktop/tasks/df_dashboard.xlsx'
+path='df_dashboard.xlsx'
 
 
 df= pd.read_excel(path)
